@@ -1,0 +1,34 @@
+section{
+  display: flex;
+  text-align: left;
+  padding: 0.5em;
+  border-radius: 5px;
+}
+
+table{
+  border: 1px gray solid;
+  border-radius: 10px;
+  border-spacing:0 5px;
+  margin-top: 1em;
+  background-color: rgb(240, 240, 240);
+  width: 100%;
+}
+
+img{
+  height: 8em;
+  padding: 0.5rem;
+}
+
+.nome{
+  font-size: 1em;
+  font-weight: bold;
+}
+
+.autor{
+  font-size: 0.7em;
+  color: darkgray;
+}
+
+.sinopse{
+  font-size: 0.8em;
+}

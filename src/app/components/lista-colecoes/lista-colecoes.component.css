@@ -1,0 +1,20 @@
+h3{
+  text-align: center;
+}
+
+button{
+  width: 100%;
+  padding: 0.3em;
+  font-size: 1rem;
+  font-weight: bold;
+  font-family: 'Courier New', Courier, monospace;
+  border: 2px solid gray;
+  border-radius: 5px;
+  margin-top: 1rem;
+}
+
+button:hover{
+  cursor: pointer;
+  background-color: gray;
+  color: white;
+}

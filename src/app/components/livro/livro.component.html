@@ -1,0 +1,24 @@
+<section>
+  <table *ngIf="livro">
+    <tr>
+      <td rowspan="4" >
+        <img src="{{ livro.capa }}">
+      </td>
+    </tr>
+    <tr>
+      <td class="nome">
+        {{ livro.nome }}
+      </td>
+    </tr>
+    <tr>
+      <td class="autor">
+        {{ livro.autor }}
+      </td>
+    </tr>
+    <tr>
+      <td class="sinopse">
+        {{ livro.sinopse }}
+      </td>
+    </tr>
+  </table>
+</section>

@@ -1,0 +1,5 @@
+<h3>Gênero</h3>
+<hr>
+<button *ngFor="let colecao of ( colecao$ | async )" type="button" (click)="selecionaColecao(colecao)">
+  {{ colecao.genero.genero }}
+</button>

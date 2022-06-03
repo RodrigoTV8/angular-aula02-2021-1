@@ -1,0 +1,37 @@
+body{
+  margin: 0px !important;
+}
+
+:host{
+  display: flex;
+  font-family: 'Courier New', Courier, monospace;
+  position: relative;
+  margin-bottom: 0px;
+}
+
+nav{
+  flex: 10em 0 1;
+  background-color: rgb(211, 215, 215);
+  margin: 0.5em;
+  padding: 0.5em;
+  border-radius: 5px;
+}
+
+main{
+  flex: auto;
+  text-align: center;
+  padding: 0.5em;
+}
+
+.livros{
+  background-color: rgb(211, 215, 215);
+}
+
+@media screen and (max-width: 30em){
+  :host{
+    flex-direction: column;
+  }
+  nav{
+    flex: auto 0 1;
+  }
+}
